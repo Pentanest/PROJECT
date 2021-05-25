@@ -1,0 +1,214 @@
+ /* Header.js  */
+
+ .body{
+  font-family: 'Montserrat', sans-serif;
+ }
+
+
+#navBar{
+  position: fixed;
+  /* background-color: grey; */
+  width: 100%;
+
+}
+
+.header .navbar-brand{
+  font-size: 2rem;
+  color: slateblue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ .header{
+  padding-left: 30vh;
+  padding-right: 30vh;
+
+}
+
+.navItems{
+  color: grey;
+  
+}
+
+.navItems:hover{
+  color: black;
+}
+
+.userAvatar{
+  border-radius: 50%
+}
+
+.userName{
+  margin-left: 10px;
+}
+
+.headerSymbols{
+  font-size: 1.55rem;
+}
+
+.homeSymbol{
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+.symbolNameHome{
+  visibility: hidden;
+  position: absolute;
+}
+
+.symbolNameNotif{
+  visibility: hidden;
+  position: absolute;
+}
+
+.symbolNameAns{
+  visibility: hidden;
+  position: absolute;
+}
+
+.btnUsername{
+  margin-left: 40px;
+}
+
+.languageSymbol{
+  margin-left: 10px;
+}
+
+.navForPhone1{
+  visibility: hidden;
+  position: absolute;
+}
+
+.navForPhone2{
+  visibility: hidden;
+  position: absolute;
+}
+
+/*///////////////////////////////////// Media Queries ///////////////////////////////////////////////////////////*/
+
+@media (max-width: 1280px) {
+  
+  #navBar{
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .header{
+    padding-left: 3vh;
+    padding-right: 3vh;
+  }
+  
+   .headerSymbols{
+    font-size: 1rem;
+    /* visibility: hidden; */
+   }
+
+  .homeSymbol{
+    margin-top: 6.8px;
+    margin-left: 365px;
+    /* margin-right: 10px; */
+   }
+
+  .symbolNameHome{
+    font-size: 1.2rem;
+    visibility:visible;
+    position: absolute;
+  }
+  
+  .notificationSymbol{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .symbolNameNotif{
+    visibility:hidden ;
+    position: absolute;
+  }
+
+  .symbolNameAns{
+    visibility:hidden ;
+    position: absolute;
+  }
+
+  .answerSymbol{
+    position: absolute;
+    visibility: hidden;
+  }
+  
+  .dropdown{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .languageSymbol{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .btnUsername{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .headerSearchBox{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .navForPhone1{
+    visibility: visible;
+    position: static;
+    margin-left: 330px;
+  }
+
+  .navForPhone1 .nameNotif{
+     position: static;
+     padding-left: 11px;
+  }
+
+  .navForPhone2{
+    visibility: visible;
+    position:static;
+    margin-left: 360px;
+  }
+
+  .navForPhone2 .nameAns{
+    position: static;
+    padding-left: 9px;
+  }
+
+}
+
+
+
+
+/* Motto.js */
+
+.motoSection{
+  width: auto;
+  height: 150vh;
+  background-image: linear-gradient(60deg, royalblue, lightblue);
+  padding: 22vh;
+}
+
+.aboveMoto{
+  color:deepskyblue;
+}
+
+.moto{
+  color: whitesmoke;
+  margin-top: 30px;
+  line-height: 1.7;
+}
+
+.belowMoto{
+  margin-top: 20px;
+  color: darkgray;
+  font-weight: 600;
+  line-height: 1.9;
+}
+
+.btnLearnMore{
+  border-radius: 100%;
+}
